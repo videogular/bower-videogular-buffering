@@ -9,6 +9,8 @@ Install [Videogular](http://www.videogular.com/) `buffering` plugin with Bower:
 
 `bower install videogular-buffering`
 
+Inside the folder `bower_components\videogular-buffering` you should find also `html` partials that you should locate in `.\views\videogular\plugins\buffering\`.
+
 ### Install Videogular
 
 Install [Videogular](http://www.videogular.com/) with Bower:
