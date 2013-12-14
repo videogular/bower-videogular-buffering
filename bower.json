@@ -1,6 +1,6 @@
 {
   "name": "videogular-buffering",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "./buffering.js",
   "dependencies": {
     "videogular": "latest"
