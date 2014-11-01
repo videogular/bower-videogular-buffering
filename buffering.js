@@ -1,5 +1,5 @@
 /**
- * @license Videogular v0.6.2 http://videogular.com
+ * @license Videogular v0.6.3 http://videogular.com
  * Two Fucking Developers http://twofuckingdevelopers.com
  * License: MIT
  */
@@ -68,7 +68,7 @@ angular.module("com.2fdevs.videogular.plugins.buffering", [])
 							return API.isReady;
 						},
 						function (newVal, oldVal) {
-							if (newVal != oldVal) {
+							if (API.isReady == true || newVal != oldVal) {
 								onPlayerReady(newVal);
 							}
 						}
