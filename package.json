@@ -9,6 +9,10 @@
 		"grunt": "~0.4.1",
 		"grunt-release": "~0.7.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/videogular/bower-videogular-buffering.git"
+	},
 	"engines": {
 		"node": ">=0.8.0"
 	}
